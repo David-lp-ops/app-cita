@@ -1,2 +1,2 @@
 # app-cita
-App de administracion de pacientes con citas con React y Vite
+App de administracion de pacientes en veterinaria, registrando citas con React y Vite
