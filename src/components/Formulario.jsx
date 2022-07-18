@@ -67,13 +67,13 @@ const Formulario = ({pacientes, setPacientes,paciente,setPaciente}) => {
         </p>
         <form 
         onSubmit={handleSubmit}
-           className='bg-white shadow-md rounded-lg py-10 px-5'>
+           className='bg-white shadow-xl rounded-xl py-10 px-5  '>
             
             {error && <Error><p>Todos los campos son obligatorios</p></Error>   }
                 
             <div className="mb-5">
                 <label htmlFor="mascota"  
-                className="block text-gray-700 uppercase font-bold">
+                className="block text-sm font-medium text-gray-500 ">
                     Nombre Mascota</label>
                 <input id="mascota" 
                 className="border-2 w-full p-2 mt-3 rounded-lg" 
@@ -86,7 +86,7 @@ const Formulario = ({pacientes, setPacientes,paciente,setPaciente}) => {
             <div className="mb-5">
                 <label 
                 htmlFor="propietario"
-                className="block text-gray-700 uppercase font-bold">
+                className="block text-sm font-medium text-gray-500 ">
                     Nombre Propietario</label>
                 <input 
                 id="propietario" 
@@ -100,7 +100,7 @@ const Formulario = ({pacientes, setPacientes,paciente,setPaciente}) => {
             <div className="mb-5">
                 <label 
                 htmlFor="email"
-                className="block text-gray-700 uppercase font-bold">
+                className="block text-sm font-medium text-gray-500 ">
                     Email</label>
                 <input 
                 id="email" 
@@ -114,7 +114,7 @@ const Formulario = ({pacientes, setPacientes,paciente,setPaciente}) => {
             <div className="mb-5">
                 <label 
                 htmlFor="alta"
-                className="block text-gray-700 uppercase font-bold">
+                className="block text-sm font-medium text-gray-500">
                     Alta</label>
                 <input 
                 id="alta" 
@@ -128,7 +128,7 @@ const Formulario = ({pacientes, setPacientes,paciente,setPaciente}) => {
             <div className="mb-5">
                 <label 
                 htmlFor="sintomas"
-                className="block text-gray-700 uppercase font-bold">
+                className="block text-sm font-medium text-gray-500">
                     Sintomas</label>
                 <textarea 
                 id="sintomas" 
@@ -142,7 +142,7 @@ const Formulario = ({pacientes, setPacientes,paciente,setPaciente}) => {
 
             <input 
             type="submit"
-            className="bg-violet-500 hover:bg-violet-700 hover:ring hover:ring-violet-300 text-white font-bold  w-full py-2 px-4 rounded-lg cursor-pointer shadow-md" 
+            className="bg-violet-500 hover:bg-violet-700 hover:ring hover:ring-violet-300  text-white font-bold  w-full py-2 px-4 rounded-lg cursor-pointer shadow-md" 
             value={paciente.id ? 'Editar Paciente':'Agregar paciente'} />
          
 

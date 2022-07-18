@@ -10,26 +10,26 @@ const Paciente = ({paciente,setPaciente,eliminarPaciente}) => {
 
   return (
     <div className="mx-5 my-10 bg-white shadow-md px-5 py-10 rounded-xl">
-            <p className='font-bold mb-3 text-gray-700 uppercase
+            <p className='font-bold mb-3 text-gray-700 
             '>Nombre Mascota:{""}
-               <span className='font-normal normal-case'>{nombre}</span>
+               <span className='font-normal normal-case mr-10'> {nombre}</span>
             </p>
 
-            <p className='font-bold mb-3 text-gray-700 uppercase
+            <p className='font-bold mb-3 text-gray-700 
             '>Propietario:{""}
-               <span className='font-normal normal-case'>{propietario}</span>
+               <span className='font-normal normal-case'> {propietario}</span>
             </p>
-            <p className='font-bold mb-3 text-gray-700 uppercase
+            <p className='font-bold mb-3 text-gray-700 
             '>Email:{""}
-               <span className='font-normal normal-case'>{email}</span>
+               <span className='font-normal normal-case'> {email}</span>
             </p>
-            <p className='font-bold mb-3 text-gray-700 uppercase
+            <p className='font-bold mb-3 text-gray-700 
             '>Fecha Alta:{""}
-               <span className='font-normal normal-case'>{alta}</span>
+               <span className='font-normal normal-case'> {alta}</span>
             </p>
-            <p className='font-bold mb-3 text-gray-700 uppercase
+            <p className='font-bold mb-3 text-gray-700 
             '>Sintomas:{""}
-               <span className='font-normal normal-case'>{sintomas}</span>
+               <span className='font-normal normal-case'> {sintomas}</span>
             </p>
             <div className="flex justify-between mt-10">
                <button type="button"

@@ -4,7 +4,7 @@ export default function Header() {
         
             <>
                <h1 className='font-black text-5xl text-center md:w-2/3 mx-auto text-violet-500'>Seguimiento Pacientes {""}
-                <span className='text-indigo-600'>Veterinaria</span></h1>
+                <span className='text-transparent bg-gradient-to-r bg-clip-text from-violet-500 to-blue-500'>Veterinaria</span></h1>
             </>
        
     )
